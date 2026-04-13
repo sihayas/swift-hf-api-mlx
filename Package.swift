@@ -18,7 +18,7 @@ let package = Package(
         // TODO: Switch from this pinned revision to a major-version dependency once mlx-swift-lm publishes a release that includes PR #118.
         .package(
             url: "https://github.com/ml-explore/mlx-swift-lm.git",
-            revision: "67b146eba8cad6880d30dc3a883eb80cee29adca"
+            revision: "f7c5c99e54112845242b7f46d1d6335fcbe57476"
         ),
         .package(url: "https://github.com/DePasqualeOrg/swift-hf-api", from: "0.2.2"),
     ],
